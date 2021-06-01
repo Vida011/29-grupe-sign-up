@@ -5,13 +5,34 @@ main {
     display: inline-block;
     width: 800px;
     margin-top: 100px;
-    margin-left: calc(50% - 400px);
-
+    margin-left: calc(50% - 400px)
 }
 
-div {
-    width: 50%;
+.left-column {
+  width: 40%;
+  float: left;
+  background-color: yellow;
+}
+
+.bottom-links {
+}  
+.bottom-links > a {
+}
+.bottom-links > span {
+ }
+
+.main-title {
+    font-size: 60px;
+}
+
+.right-column {
+    width: 60%;
     float: left;
-    background-color: yellow;
-}   
-    
+    background-color: pink;
+}
+
+ .close {
+ } 
+
+.form {
+}
