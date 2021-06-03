@@ -15,7 +15,7 @@ body {
 main {
     display: inline-block;
     width: 800px;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-left: calc(50% - 400px)
 }
 
@@ -36,6 +36,7 @@ main {
 .bottom-links {
 }  
 .bottom-links > a {
+    color: #fff;
 }
 .bottom-links > span {
  } 
@@ -48,11 +49,23 @@ main {
 .right-column {
     width: 60%;
     float: left;
-    padding: 70px;
-    background-color: #fff;
+    padding: 60px;
+    background-color: #fff;  
+    position: relative;
 }
     
  .close {
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     line-height: 54px;
+     text-align: center;
+     font-size: 30px;
+     position: absolute;
+     right: 0;
+     top: 0;
+      
+     
  } 
  
 
